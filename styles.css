@@ -1,0 +1,709 @@
+*,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+
+body{
+	overflow-x: hidden;
+	/* Hide horizontal scrollbar */
+}
+
+a:link {
+	text-decoration: none;
+}
+
+ion-icon {
+	font-size: 32px;
+}
+
+
+/*Top Navbar Styling*/
+.topbar {
+	/* background: #DEBF46; */
+	background: #FFC107;
+	padding: 2px 0;
+	font-size: 14px;
+	height: 70px;
+}
+
+.topbar .contact-info i {
+	padding-left: 1rem;
+	font-style: normal;
+	color: #4e3b2a;
+}
+
+.topbar .contact-info i a,
+.topbar .contact-info i span {
+	padding-left: 5px;
+	color: #2b2320;
+}
+
+.topbar .contact-info i a {
+	line-height: 0;
+	transition: 0.3s;
+}
+
+.topbar .contact-info i a:hover {
+	color: #4e3b2a;
+}
+
+.topbar .social-links a {
+	color: #23201a;
+	line-height: 0;
+	transition: 0.3s;
+	margin-left: 15px;
+}
+
+.topbar .social-links a:hover {
+	/* color: #665200; */
+	color: #fff;
+}
+
+.logo {
+	height: 70px;
+	width: 100px;
+}
+
+
+/*Navbar Styling*/
+.navlinks a {
+	color: #23201a;
+}
+
+.offcanvas-body {
+	color: #2b2320;
+}
+
+/* Carosel */
+.carousel-item,
+.carousel-item img {
+	height: 80vh;
+	width: 100vw;
+}
+
+@media screen and (max-width: 500px) {
+	.carousel-item {
+		height: auto;
+	}
+
+	.carousel-item img {
+		height: auto;
+	}
+
+	.topbar {
+		display: none;
+	}
+}
+
+/* FAQ Section */
+
+.faq {
+	font-size: 1.1rem;
+	padding: 7rem;
+}
+
+.faq h1 {
+	align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+	.faq {
+		padding: 1rem;
+	}
+
+}
+
+/* Awards Section */
+
+.awards {
+	color: #fff;
+	background-color: #212529;
+}
+
+.row-awards {
+	margin-left: 6rem;
+	padding-bottom: 2rem;
+}
+
+.image {
+	padding: 1rem;
+	width: 200px;
+	height: 200px;
+	border-radius: 20%;
+}
+
+/* WHY Imperial Lubricant Section */
+.row-why {
+	padding: 2rem 4rem;
+	text-align: justify;
+}
+
+.click,
+.click:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+	.row-awards {
+		margin-left: 1rem;
+		padding-bottom: 2rem;
+	}
+
+	.row-why {
+		padding: 1rem 2rem;
+		text-align: left;
+	}
+
+	.click,
+	.click:hover {
+		color: #000;
+		text-decoration: none;
+	}
+
+	.row-why h5 {
+		font-size: 1.1rem;
+	}
+
+}
+
+
+/*Footer*/
+.footer {
+	color: #ffffff;
+	font-size: 18px;
+	background: #212529;
+}
+
+.footer .footer-top {
+	padding: 20px 50px;
+	/* background: black; */
+}
+
+.footer .footer-top .footer-contact {
+	margin-bottom: 30px;
+}
+
+.footer .footer-top .footer-contact h3 {
+	font-size: 22px;
+	margin: 0 0 10px 0;
+	padding: 2px 0 2px 0;
+	line-height: 1;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.footer .footer-top .footer-contact p {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 0;
+	font-family: "Muli", sans-serif;
+	color: #ffffff;
+}
+
+.footer .footer-top h4 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	position: relative;
+	padding-bottom: 12px;
+}
+
+.footer .footer-top .footer-links {
+	margin-bottom: 30px;
+}
+
+.footer .footer-top .footer-links ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer .footer-top .footer-links ul i {
+	padding-right: 2px;
+	color: #665200;
+	font-size: 18px;
+	line-height: 1;
+}
+
+.footer .footer-top .footer-links ul li {
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+}
+
+.footer .footer-top .footer-links ul li:first-child {
+	padding-top: 0;
+}
+
+.footer .footer-top .footer-links ul a {
+	color: #ffffff;
+	transition: 0.3s;
+	display: inline-block;
+	line-height: 1;
+}
+
+.footer .footer-top .footer-links ul a:hover {
+	text-decoration: none;
+	color: #665200;
+}
+
+.footer .credits {
+	padding-top: 5px;
+	font-size: 13px;
+	color: #b4aca8;
+}
+
+.footer .social-links a {
+	font-size: 18px;
+	display: inline-block;
+	background: #4e3b2a;
+	color: #fff;
+	line-height: 1;
+	padding: 2px 0;
+	margin-right: 4px;
+	border-radius: 25%;
+	text-align: center;
+	width: 36px;
+	height: 36px;
+	transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+	/* background: #DEBF46; */
+	background: #FFC107;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* About Us */
+.aboutUs h1 {
+	padding-top: 1rem;
+	display: flex;
+	justify-content: center;
+}
+
+.aboutus-content1 {
+	padding: 20px 20px 0 20px;
+}
+
+.aboutus-content2 {
+	padding: 0 20px 20px 20px;
+}
+
+.aboutus-img {
+	padding: 2.2% 5% 2.5% 0;
+}
+
+@media screen and (max-width: 600px) {
+	.aboutus-img {
+		padding: 2% 0 5% 0;
+	}
+
+	.aboutus-content1 h5,
+	.aboutus-content2 h5 {
+		padding: 0 20px 20px 20px;
+		font-size: 1.1rem;
+	}
+}
+
+
+
+/* Contact Us */
+.officeInfo h1,
+.gform h2,
+.faq h1,
+.awards h1,
+.productsSection h1 {
+	padding: 0 2rem;
+	display: flex;
+	justify-content: center;
+
+}
+
+.officeInfo p {
+	padding-left: 220px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.officeInfo a {
+	margin-right: 50px;
+}
+
+@media screen and (max-width: 500px) {
+	.officeInfo p {
+		padding: 10px;
+	}
+
+	.officeInfo a {
+		margin: 10px;
+	}
+
+	.officeInfo h1 {
+		padding-left: 15px;
+		display: flex;
+		justify-content: center;
+
+	}
+}
+
+.gform {
+	padding: 20px;
+}
+
+iframe {
+	width: "100%";
+	height: "1167px";
+}
+
+@media screen and (max-width: 500px) {
+	iframe {
+		width: "100%";
+		height: "1267px";
+	}
+}
+
+/* Testimonial section */
+
+.Testimonial {
+	margin: 0;
+	position: relative;
+	padding: 30px 0;
+	background: #212529;
+	z-index: 1;
+	width: 100%;
+}
+
+.section-title {
+	position: relative;
+	width: 90%;
+	padding-bottom: 40px;
+}
+
+.section-title p {
+	color: white;
+	font-size: 13px;
+	line-height: 20px;
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.section-title h2 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 34px;
+	font-weight: 800;
+	position: relative;
+}
+
+.section-separator {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 20px 0;
+}
+
+.section-separator:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 0;
+	height: 3px;
+	width: 50px;
+	border-radius: 3px;
+	z-index: 2;
+	background-color: #FFC107;
+	margin-left: 25px;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.listing-carousel-button {
+	position: absolute;
+	top: 50%;
+	width: 60px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: -25px;
+	z-index: 100;
+	cursor: pointer;
+	background: #FFC107;
+	box-shadow: 0 9px 26px rgba(58, 87, 135, 0.45);
+	transition: all 200ms linear;
+	outline: none;
+}
+
+.listing-carousel-button.listing-carousel-button-next {
+	right: -0px;
+	padding-right: 20px;
+	border-radius: 60px 0 0 60px;
+}
+
+.listing-carousel-button.listing-carousel-button-prev {
+	left: -0px;
+	padding-left: 20px;
+	border-radius: 0 60px 60px 0;
+}
+
+.listing-carousel-button.listing-carousel-button-next:hover {
+	right: -15px;
+	background: rgba(6, 27, 65, 0.4);
+}
+
+.listing-carousel-button.listing-carousel-button-prev:hover {
+	left: -15px;
+	background: rgba(6, 27, 65, 0.4);
+}
+
+.testi-item {
+	transition: all .3s ease-in-out;
+	transform: scale(0.9);
+	opacity: 0.9;
+}
+
+.testimonials-text {
+	padding: 20px 50px 20px;
+	overflow: hidden;
+	background: #f5f6fa;
+	border: 1ps solid #f1f1f1;
+	border-radius: 10px;
+	transition: all .3s ease-in-out;
+}
+
+.testimonials-text-after {
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	position: absolute;
+	color: #ccc;
+	opacity: .3;
+	font-size: 35px;
+	transition: all 400ms linear;
+	bottom: 25px;
+	right: 30px;
+}
+
+.testimonials-text-before {
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	position: absolute;
+	color: #ccc;
+	opacity: .3;
+	font-size: 35px;
+	transition: all 400ms linear;
+	top: 25px;
+	left: 30px;
+}
+
+.testimonials-text .listing-rating {
+	float: none;
+	display: inline-block;
+	margin-bottom: 12px;
+}
+
+.listing-rating i {
+	color: #FFC107;
+}
+
+.testimonials-avatar h3 {
+	font-weight: 600;
+	color: #000;
+	font-size: 18px;
+}
+
+.testimonials-avatar h4 {
+	font-weight: 400;
+	font-size: 12px;
+	padding-top: 6px;
+	color: #4e3b2a;
+}
+
+.testimonials-carousel .swiper-slide {
+	padding: 30px 0;
+}
+
+.testi-avatar {
+	position: absolute;
+	left: 50%;
+	top: -30px;
+	width: 90px;
+	height: 90px;
+	margin-left: -45px;
+	z-index: 20;
+}
+
+.testi-avatar img {
+	width: 90px;
+	height: 90px;
+	float: left;
+	border-radius: 100%;
+	border: 6px solid #fff;
+	box-shadow: 0 9px 26px rgba(58, 87, 135, 0.1);
+}
+
+.swiper-slide-active .testimonials-text {
+	background: #fff;
+	box-shadow: 0 9px 26px rgba(58, 87, 135, 0.1);
+}
+
+.testimonials-text p {
+	color: #000;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	line-height: 24px;
+	padding-bottom: 10px;
+	font-weight: 500;
+}
+
+.text-link {
+	position: absolute;
+	bottom: 0;
+	padding: 15px 0;
+	border-radius: 10px 10px 0 0;
+	background: #f9f9f9;
+	border: 1px solid #eee;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.03);
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+}
+
+.swiper-slide-active .testi-item {
+	opacity: 1;
+	transform: scale(1.0);
+}
+
+.tc-pagination {
+	float: left;
+	margin-top: 10px;
+	width: 100% !important;
+}
+
+.tc-pagination_wrap {
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	width: 100%;
+}
+
+.tc-pagination2 {
+	float: none;
+	display: inline-block;
+	padding: 14px 0;
+	background: #fff;
+	border-radius: 30px;
+	min-width: 250px;
+	border-bottom: 0;
+}
+
+.tc-pagination .swiper-pagination-bullet,
+.tc-pagination2.swiper-pagination-bullet {
+	opacity: 1;
+	background: #384f95;
+	margin: 0 2px;
+	width: 10px;
+	height: 10px;
+	transition: all 300ms ease-in-out;
+}
+
+@media screen and (max-width: 500px) {
+	.listing-carousel-button {
+		position: absolute;
+		top: 50%;
+		width: 30px;
+		height: 50px;
+	}
+
+	.section-separator {
+		display: none;
+	}
+}
+
+
+.productsSection {
+	height: 37rem;
+	position: relative;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.prdtSugg {
+	width: 80%;
+	height: 230px;
+	margin-top: 5%;
+	margin-left: 10%;
+	border-radius: 24px;
+	background: #ffffff;
+	box-shadow: 18px 18px 36px #bdbdbd,
+		-18px -18px 36px #ffffff;
+}
+
+.Car {
+	padding: 1rem;
+	width: 100%;
+	height: 200px;
+}
+
+.Mini {
+	padding: 1rem;
+	width: 100%;
+	height: 185px;
+}
+
+.Scooter {
+	margin-top: 1rem;
+	padding: 1rem;
+	width: 100%;
+	height: 140px;
+}
+
+.Truck {
+	padding: 1rem;
+	width: 100%;
+	height: 170px;
+}
+
+.Bike {
+	margin-top: 1rem;
+	padding: 1rem;
+	width: 100%;
+	height: 155px;
+}
+
+@media screen and (max-width: 500px) {
+	.productsSection {
+		height: 70rem;
+	}
+
+	.prdtSugg {
+		width: 80%;
+		height: 60rem;
+
+	}
+
+	.Car,
+	.Bike,
+	.Truck,
+	.Scooter,
+	.Mini {
+		margin-left: 2rem;
+		width: 70%;
+		height: 200px;
+	}
+
+}
